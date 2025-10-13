@@ -33,7 +33,7 @@ requirements:
     - cmake  # [win]
 
   host:
-    - giflib  # [not win]
+    - giflib
     - libarchive
     - libjpeg-turbo
     - leptonica
