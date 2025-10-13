@@ -41,7 +41,7 @@ requirements:
     - libtiff
     - libwebp
     - openjpeg
-    - liblzma-devel  # [not win]
+    - liblzma-devel
     - zlib
 
 test:
