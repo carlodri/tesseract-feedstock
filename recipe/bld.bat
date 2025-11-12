@@ -2,7 +2,7 @@ cd tesseract
 mkdir build
 cd build
 
-cmake -G "NMake Makefiles" ^
+cmake -G "Ninja" ^
       -D CMAKE_BUILD_TYPE=Release ^
       -D CMAKE_PREFIX_PATH=%LIBRARY_PREFIX% ^
       -D CMAKE_INCLUDE_PATH=%LIBRARY_INC% ^
